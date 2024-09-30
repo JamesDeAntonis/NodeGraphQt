@@ -40,6 +40,7 @@ class PropertyChangedCmd(QtWidgets.QUndoCommand):
             if view.widgets[name].get_value() != value:
                 view.widgets[name].set_value(value)
 
+
         # view properties.
         if name in view.properties.keys():
             # remap "pos" to "xy_pos" node view has pre-existing pos method.

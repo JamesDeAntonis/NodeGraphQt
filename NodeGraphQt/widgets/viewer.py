@@ -173,6 +173,7 @@ class NodeViewer(QtWidgets.QGraphicsView):
         #                 conflict with parent existing host app.
         self._ctx_menu_bar.addMenu(self._ctx_graph_menu)
         self._ctx_menu_bar.addMenu(self._ctx_node_menu)
+        print("focusing in event")
         return super(NodeViewer, self).focusInEvent(event)
 
     def focusOutEvent(self, event):
