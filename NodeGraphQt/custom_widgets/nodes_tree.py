@@ -26,7 +26,7 @@ class NodesTreeWidget(QtWidgets.QTreeWidget):
 
     .. inheritance-diagram:: NodeGraphQt.NodesTreeWidget
         :parts: 1
-        :top-classes: PySide2.QtWidgets.QWidget
+        :top-classes: PySide6.QtWidgets.QWidget
 
     .. image:: ../_images/nodes_tree.png
         :width: 300px

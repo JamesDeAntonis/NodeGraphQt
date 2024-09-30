@@ -42,7 +42,7 @@ class NodeGraph(QtCore.QObject):
     and the node graph.
 
     .. inheritance-diagram:: NodeGraphQt.NodeGraph
-        :top-classes: PySide2.QtCore.QObject
+        :top-classes: PySide6.QtCore.QObject
 
     .. image:: ../_images/graph.png
         :width: 60%
@@ -117,7 +117,7 @@ class NodeGraph(QtCore.QObject):
     """
     Signal is triggered when data has been dropped to the graph.
 
-    :parameters: :class:`PySide2.QtCore.QMimeData`, :class:`PySide2.QtCore.QPoint`
+    :parameters: :class:`PySide6.QtCore.QMimeData`, :class:`PySide6.QtCore.QPoint`
     :emits: mime data, node graph position
     """
     session_changed = QtCore.Signal(str)
@@ -540,7 +540,7 @@ class NodeGraph(QtCore.QObject):
         Returns node graph undo history list widget.
 
         Returns:
-            PySide2.QtWidgets.QUndoView: node graph undo view.
+            PySide6.QtWidgets.QUndoView: node graph undo view.
         """
         if self._undo_view is None:
             self._undo_view = QtWidgets.QUndoView(self._undo_stack)
@@ -592,7 +592,7 @@ class NodeGraph(QtCore.QObject):
 
         See Also:
             :attr:`NodeGraph.widget` to add the node graph widget into a
-            :class:`PySide2.QtWidgets.QLayout`.
+            :class:`PySide6.QtWidgets.QLayout`.
 
         Returns:
             NodeGraphQt.widgets.viewer.NodeViewer: viewer interface.
@@ -2507,7 +2507,7 @@ class SubGraph(NodeGraph):
     :class:`NodeGraphQt.GroupNode`.
 
     .. inheritance-diagram:: NodeGraphQt.SubGraph
-        :top-classes: PySide2.QtCore.QObject
+        :top-classes: PySide6.QtCore.QObject
 
     .. image:: ../_images/sub_graph.png
         :width: 70%
@@ -2824,7 +2824,7 @@ class SubGraph(NodeGraph):
         The widget to the sub graph.
 
         Returns:
-            PySide2.QtWidgets.QWidget: node graph widget.
+            PySide6.QtWidgets.QWidget: node graph widget.
         """
         if self._subviewer_widget is None:
             self._subviewer_widget = QtWidgets.QWidget()

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 **NodeGraphQt** is a node graph framework that can be implemented and re purposed
-into applications that supports **PySide2**.
+into applications that supports **PySide6**.
 
 project: https://github.com/jchanvfx/NodeGraphQt
 documentation: https://jchanvfx.github.io/NodeGraphQt/api/html/index.html

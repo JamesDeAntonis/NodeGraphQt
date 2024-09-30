@@ -63,7 +63,7 @@ extensions = [
 
 intersphinx_mapping = {
     # 'python': ('https://docs.python.org/3', None),
-    'PySide2': ('https://doc.qt.io/qtforpython/', None),
+    'PySide6': ('https://doc.qt.io/qtforpython/', None),
 }
 
 # inheritance diagram remapping.
@@ -273,7 +273,7 @@ texinfo_documents = [
      'NodeGraphQt', 'NodeGraphQT Documentation',
      author,
      'NodeGraphQt',
-     'Node graph framework that can be re-implemented into apps that supports PySide2.',
+     'Node graph framework that can be re-implemented into apps that supports PySide6.',
      'Miscellaneous'),
 ]
 

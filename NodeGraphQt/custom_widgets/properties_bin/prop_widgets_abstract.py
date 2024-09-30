@@ -7,7 +7,7 @@ class BaseProperty(QtWidgets.QWidget):
     Base class for a custom node property widget to be displayed in the
     PropertiesBin widget.
 
-    Inherits from: :class:`PySide2.QtWidgets.QWidget`
+    Inherits from: :class:`PySide6.QtWidgets.QWidget`
     """
 
     value_changed = QtCore.Signal(str, object)
